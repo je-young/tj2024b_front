@@ -1,0 +1,50 @@
+/* 박스 테두리 라인 */
+/* body { border: solid 1px red; }
+.img_box_line { border: solid 1px blue; }
+.title_line { border: solid 1px orange; }
+.text_box_line { border: solid 1px green; } */
+
+
+.title_box {
+    word-spacing: 3px;
+}
+
+.title_number {
+    font-size: 2em;
+    font-weight: bold;
+    color: orange;
+}
+
+.title_content {
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+}
+
+.text_color_orange {
+    font-weight: bold;
+    color: orange;
+}
+
+.text_color_white {
+    font-weight: bold;
+    color: white;
+}
+
+.text_box_background {
+    background-color: #0F6878;
+    padding: 20px 10px 20px 10px;
+    word-spacing: 3px;
+    line-height: 140%;
+}
+
+.title_line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* 
+word-spacing: 10px; 단어 간격 : 어간
+letter-spacing: 10px; 글자 간격 : 자간
+line-height: 160%; /* 줄간격, %단위
+*/

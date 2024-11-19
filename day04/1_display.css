@@ -1,0 +1,6 @@
+/* 구역 구분 확인용 */
+*{ border: 2px solid red; }
+
+.s1{ 
+    display: inline; /* span 기본값*/
+}

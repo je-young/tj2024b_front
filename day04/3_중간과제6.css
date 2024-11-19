@@ -1,0 +1,76 @@
+/* * {
+    padding: 0px; margin: 0px;
+} */
+
+/* 기본 설정 */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fcb5c1;
+}
+
+/* 카드 컨테이너 */
+.card {
+    /* background-color: #fff; */
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+/* 상단 텍스트 스타일 */
+.title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+/* 프로필 이미지 스타일 */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 10px;
+    border: 4px solid #fcb5c1;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 설명 텍스트 스타일 */
+.description {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+/* 버튼 스타일 */
+.button {
+    display: block;
+    background-color: #87ceeb;
+    color: white;
+    padding: 10px 0;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.button:hover {
+    background-color: #62b6e2; /* 마우스 올리면 색상 변경 */
+    transition: 0.7s; /* 마우스 올리면 부드럽게 변경 */
+}

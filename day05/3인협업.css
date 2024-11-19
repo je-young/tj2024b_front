@@ -1,0 +1,166 @@
+* {
+    /* border: 1px solid red; */
+    margin: 0px;
+    padding: 0px;
+    font-family: 'SUIT',
+        'Poppins',
+        'Malgun Gothic',
+        Dotum,
+        AppleGothic,
+        Sans-serif;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+
+.header-all {
+    background-color: white;
+    height: 217px;
+    margin: 0px 257px 20px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 59px;
+}
+
+.header-top-icon {
+    display: block;
+    width: 19px;
+    margin: 10px 10px;
+}
+
+.header-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 124px;
+}
+
+.title {
+    width: 164px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category {
+    padding: 20px 12px;
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+ul>li>a {
+    color: black;
+}
+
+/* ==========협업자 영영 나중에 삭제하세요.=========== */
+.man {
+    border-top: 1px solid #e7e7e7;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+/* =================================================== */
+
+.footer-all {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e7e7e7;
+    background-color: #F9F9F9;
+    padding: 50px 257px;
+}
+
+.foot-box1 {
+    padding-right: 30px;
+}
+
+.bottom-title {
+    width: 140px;
+    margin-bottom: 40px;
+}
+
+.conditions {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.conditions>li {
+    font-size: 14px;
+}
+
+.per-info {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.business-info {
+    margin: 20px 0px;
+}
+
+.business-info>ul>li {
+    margin: 5px 0px;
+    font-size: 13px;
+}
+
+.copyright {
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.foot-box2 {
+    padding-right: 30px;
+}
+
+.foot-box2>ul>li {
+    margin: 5px 0px;
+    font-size: 13px;
+}
+
+.cs {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.tel {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.address {
+    margin-top: 30px;
+}
+
+.address-1 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.address-2 {
+    font-size: 13px;
+}
+
+.bank-info {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.bank-info-list {
+    padding: 5px 0px;
+    font-size: 13px;
+    white-space: nowrap;
+}

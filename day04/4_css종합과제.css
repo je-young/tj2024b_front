@@ -1,0 +1,138 @@
+* {
+    /* border: 1px solid red; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+}
+
+.main-left {
+    margin-right: 50px;
+    width: 400px;
+    align-content: center;
+}
+
+.main-right {
+    width: 400px;
+}
+
+.login-container {
+    background-color: #ffff;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+    color: #262626;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #898989;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: #ffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    color: #898989;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook-login {
+    background-color: transparent;
+    color: #385185;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+.face-logo {
+    width: 30px;
+}
+
+.face-text {
+    height: 30px;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #00376b;
+    text-decoration: none;
+}
+
+.signup-link {
+    border-top: 1px solid #dbdbdb;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+.signup-link p {
+    font-size: 14px;
+    color: #262626;
+}
+
+.signup-link a {
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.download-app {
+    margin-top: 20px;
+}
+
+.download-app p {
+    font-size: 14px;
+    color: #262626;
+    margin-bottom: 10px;
+}
+
+.app-buttons img {
+    width: 120px;
+    margin: 0 5px;
+}
