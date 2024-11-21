@@ -14,7 +14,9 @@
 
 #header {
     display: flex;
+    /* 하위 요소들 배치 방법 */
     justify-content: space-between;
+    /* flex 요소 양쪽 균등 가로 정렬*/
     background-color: aqua;
     position: sticky;
     /* sticky : 지정된 구역이 스크롤 밖으로 나갔을때 위치 고정 */

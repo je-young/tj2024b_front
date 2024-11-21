@@ -69,7 +69,7 @@ li {
     width: 100%;
 }
 
-/*  */
+/* 지정된 ul 마크업을 hover 했을때 서브메뉴 전체 열기 */
 #header2>ul:hover .submenu2 {
     display: block;
 }
