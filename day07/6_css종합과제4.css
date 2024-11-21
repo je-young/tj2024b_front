@@ -1,9 +1,9 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     list-style-type: none;
     text-decoration: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -18,8 +18,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* height: 44px; */
-    margin: 0 40px;
+    margin: 0px 40px;
     height: 44px;
 }
 
@@ -28,7 +27,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 44px;
-    padding: 12px 0;
+    padding: 12px 0px;
+    box-shadow: 0px 4px 0px #0000003e;
 }
 
 #Top-Menu>li>a {
@@ -36,7 +36,7 @@ body {
 }
 
 #Top-Menu>li>span {
-    padding: 0 15px;
+    padding: 0px 15px;
 }
 
 #Coupon {
@@ -46,14 +46,20 @@ body {
 
 /* 메인 메뉴 시작 */
 #Main-Menu {
+    position: sticky;
+    top: 0px;
+    opacity: 80%;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 75px;
-    padding: 0 40px;
+    padding: 0px 40px;
     border-top: 1px solid #bdbcbc74;
+    box-shadow: 0px 4px 0px #0000003e;
 }
 
+/* 로고 카테고리 */
 #Logo-Category {
     display: flex;
 }
@@ -74,18 +80,16 @@ body {
 }
 
 #Category>li {
-    padding: 0 15px;
+    padding: 0px 15px;
 }
 
 .Black-Text-Color {
     color: black;
 }
 
+/* 검색창 및 서치 아이콘 */
 #Input-Line {
     border-bottom: 1px solid black;
-    /* border-radius: 5px; */
-    /* padding: 5px; */
-    /* width: 150px; */
 }
 
 input {
@@ -97,26 +101,183 @@ input {
     width: 15px;
 }
 
-/* 상품 */
+/* 상품 대표 이미지 */
 #Main-Img {
     width: 100%;
-    box-shadow: 0 4px 6px #0000003e;
+    box-shadow: 0px 4px 6px #0000003e;
 }
 
-#Products {
+/* 아이템 소개 */
+#Product-info {
     text-align: center;
     width: 1600px;
-    padding: 50px 0;
+    padding-top: 20px;
     margin: 0 auto;
 }
 
-#Products h2 {
+/* 핫 아이템 */
+#Product-info h2 {
     font-size: 20px;
     padding-bottom: 20px;
     color: #ff5722;
 }
 
-#Products p {
+/* 조군이 추천하는 아이템 */
+#Product-info p {
     color: gray;
     font-size: 16px;
+}
+
+/* 상품 목록 */
+#Item-List {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.Item {
+    width: 380px;
+    margin: 30px 0;
+}
+
+/* 상품리스트 이미지 */
+.Item-Img {
+    width: 100%;
+    box-shadow: 0px 4px 6px #0000003e;
+}
+
+/* 상품 컬러/리뷰 */
+.Color-Review {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+.Item-Color-1 {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.Item-Color-2 {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.Review {
+    color: #6e6e6e;
+}
+
+/* 상품 옵션 설명 */
+.Item-Option-Description {
+    margin: 5px 0px;
+}
+
+.Description {
+    margin: 2px 0px;
+}
+
+.Size {
+    margin: 2px 0px;
+    font-size: 10px;
+}
+
+.Option {
+    margin: 2px 0px;
+}
+
+/* 상품 가격/할인/할인률 */
+.Item-Price {
+    position: relative;
+    margin: 5px 0px;
+}
+
+.Price {
+    color: #6e6e6e;
+    text-decoration: line-through;
+}
+
+.Discount-Rate {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* 푸터 */
+#Footer {
+    width: 100%;
+    margin-top: 100px;
+}
+
+#Footer-Top {
+    background-color: #f7f7f7;
+    box-shadow: 0px 4px 6px #0000003e;
+
+}
+
+#Footer-Content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+#Footer-Content>li>h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#Footer-Content>li>h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#Footer-Content>li>p>a {
+    color: black;
+}
+
+#Footer-Content>li>p {
+    line-height: 160%;
+}
+
+#Main-Number {
+    margin-top: 10px;
+}
+
+#Return-Address {
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+#Parcel {
+    margin-top: 10px;
+}
+
+#Depositor {
+    margin-bottom: 10px;
+}
+
+.Menu-List {
+    margin-bottom: 10px;
+}
+
+#Footter-Bottom {
+    text-align: center;
+    font-size: 10px;
+    color: #6e6e6e;
+    line-height: 160%;
+    margin: 30px 0px;
 }
