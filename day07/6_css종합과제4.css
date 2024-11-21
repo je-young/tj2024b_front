@@ -1,10 +1,10 @@
 * {
-    border: 3px solid red;
+    border: 1px solid red;
     list-style-type: none;
     text-decoration: none;
     margin: 0;
-
-    /* box-sizing: border-box; */
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,19 +13,110 @@ body {
     color: black;
 }
 
-
-
-#Top-Memu {
+/* 탑 메뉴 시작 */
+#Top-Menu {
     display: flex;
-    justify-content: end;
-    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    /* height: 44px; */
+    margin: 0 40px;
+    height: 44px;
 }
 
+#Top-Menu>li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    padding: 12px 0;
+}
+
+#Top-Menu>li>a {
+    color: black;
+}
+
+#Top-Menu>li>span {
+    padding: 0 15px;
+}
+
+#Coupon {
+    background-color: #F5FF6B;
+    font-weight: bold;
+}
+
+/* 메인 메뉴 시작 */
 #Main-Menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 0 40px;
+    border-top: 1px solid #bdbcbc74;
 }
 
-#Menu-Category {
+#Logo-Category {
     display: flex;
+}
+
+#Logo {
+    width: 155px;
+}
+
+#Category {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.Red-Text-Color {
+    color: red;
+    font-weight: bold;
+}
+
+#Category>li {
+    padding: 0 15px;
+}
+
+.Black-Text-Color {
+    color: black;
+}
+
+#Input-Line {
+    border-bottom: 1px solid black;
+    /* border-radius: 5px; */
+    /* padding: 5px; */
+    /* width: 150px; */
+}
+
+input {
+    border: none;
+    height: 30px;
+}
+
+#Search-Icon {
+    width: 15px;
+}
+
+/* 상품 */
+#Main-Img {
+    width: 100%;
+    box-shadow: 0 4px 6px #0000003e;
+}
+
+#Products {
+    text-align: center;
+    width: 1600px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+#Products h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #ff5722;
+}
+
+#Products p {
+    color: gray;
+    font-size: 16px;
 }
