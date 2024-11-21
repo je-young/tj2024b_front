@@ -81,6 +81,16 @@ body {
 
 #Category>li {
     padding: 0px 15px;
+    position: relative;
+}
+
+.Sub-Category {
+    background-color: white;
+    width: 130%;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    right: -10px;
 }
 
 .Black-Text-Color {
@@ -280,4 +290,37 @@ input {
     color: #6e6e6e;
     line-height: 160%;
     margin: 30px 0px;
+}
+
+/* 사이드 팝업 */
+#Side_Popup {
+    position: fixed;
+    top: 30%;
+    right: 0px;
+}
+
+#Side_Popup>ul>li {
+    border: 1px solid #dbdbdb;
+    background-color: #f7f7f7;
+    opacity: 80%;
+    padding: 10px;
+    position: relative;
+}
+
+#Side_Popup>ul>li>img {
+    width: 20px;
+}
+
+#Side_Popup>ul>li>span {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    padding-top: 3px;
+    /* display: none; */
 }
