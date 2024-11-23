@@ -68,6 +68,7 @@ body {
     width: 155px;
 }
 
+/* 메뉴 카테고리 */
 #Category {
     display: flex;
     align-items: center;
@@ -91,6 +92,13 @@ body {
     position: absolute;
     top: 20px;
     right: -10px;
+    display: none;
+    /* display:none; (서브 카테고리 숨김) */
+}
+
+/* 카테로리(li) 마우스(:hover)시 서브카테고리 보이게 */
+#Category>li:hover .Sub-Category {
+    display: block;
 }
 
 .Black-Text-Color {
@@ -322,5 +330,9 @@ input {
     height: 20px;
     text-align: center;
     padding-top: 3px;
-    /* display: none; */
+    display: none;
+}
+
+#Side_Popup>ul>li:hover span {
+    display: block;
 }
