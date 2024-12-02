@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 
       중간과제9 : 기계식 주차장 시스템 구현
         [요구사항]
         1. 주차할 수 있는 총 차량 대수는 20대 입니다.
@@ -32,14 +34,22 @@
         현정우  한웅재
     -->
 
-    <header>
-      <h1>고객전용 주차장</h1>
-    </header>
-    <main>
-      <div class="carNumber">
-        <label for="">차량번호 : <input type="text" name="" id="" /></label>
-      </div>
-    </main>
-  </body>
-  <script src="2_중간과제9.js"></script>
+  <header>
+    <h1>고객전용 주차장</h1>
+  </header>
+  <div>
+    <h1> 입차 </h1>
+    입차 차량번호 : <input class="inCarNum" /> <br />
+    주차위치 : <input class="inCarLoc" /> <br />
+    <button onclick="입차함수()" type="button">입차</button>
+  </div>
+
+  <div>
+    <h1> 출차 </h1>
+    출차 차량번호 : <input class="outCarNum" /> <br />
+    <button onclick="출차함수()" type="button">출차</button>
+  </div>
+</body>
+<script src="2_중간과제9.js"></script>
+
 </html>

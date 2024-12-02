@@ -160,15 +160,4 @@ function 삭제함수(index) {
 }
 
 // [5] 수정함수  , 실행조건 : [수정]버튼 클릭시
-function 수정함수(index) {
-  // 매개변수, 수정할 인덱스 번호
-  console.log('수정함수 실행');
-  console.log(index);
-  // 1. 배열내 특정한 인덱스 의 요소 수정, 배열변수명.splice( 수정할인덱스, 개수 )
-  게시물목록.splice(index, 1);
-  // 2. 화면 새로고침 / 다시 출력 / 다시 함수 호출
-  수정함수();
-}
-
-let age = 10;
-console.log(age);
+function 수정함수() {}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 
+    주제 : 인사 관리 시스템
+      [요구사향]
+      1. 인사 정보 등록
+        -'이름, 생년월일' 등등 그외 임의 추가
+        - 각 정보들을 html로 입력 받아서 js에서 등록 처리 하기
+
+      2. 전체 인사 정보 출력 내역
+        - 현재 등록된 모든 인사 정보를 출력, 점수는 별도로 각 출력할 예정
+
+      3. 인사의 점수 등록
+        - 각 인사별 상반기, 하반기 등등 그외 임의 추가
+        - 각 상반기, 하반기 점수를 html로 입력받아서 js에서 등록 처리 하기.
+
+      4. 인사별 전체 점수 정보 출력 내역
+        - 각 인사별 점수를 출력하시오.
+
+    1. 위 요구사항에 따른 화면 설계/구성
+    2. 위 요구사항에 메모리(변수/배열/csv) 설계/구성
+  -->
+  <header>
+    <h1> 인사 관리 시스템 </h1>
+  </header>
+  <main>
+    <!-- 등록 부분-->
+    <table>
+      <tr>
+        <td> 이름 : </td>
+        <td><input class="pName" type="text"></td>
+        <td> 생년월일 : </td>
+        <td><input class="pBirth" type="text"></td>
+        <td><button type="button"> 인사 등록 </button></td>
+      </tr>
+      <tr>
+        <td> 평가 년도 : </td>
+        <td><input class="date" type="text"></td>
+        <td> 상반기 점수 : </td>
+        <td><input class="upScore" type="text"></td>
+        <td> 하반기 점수 : </td>
+        <td><input class="downScore" type="text"></td>
+        <td><button type="button"> 평점 등록 </button></td>
+      </tr>
+    </table>
+    <!-- 출력 부분 -->
+    <div>
+      <h2> 전체 인사 정보 출력 </h2>
+      <table border="1">
+        <tr>
+          <td> 사원번호 </td>
+          <td> 이름 </td>
+          <td> 생년월일 </td>
+          <td> 상반기 점수 </td>
+          <td> 하반기 점수 </td>
+          <td> 평가 년도 </td>
+        </tr>
+      </table>
+    </div>
+  </main>
+</body>
+<script src="2_중간과제10.js"></script>
+
+</html>
