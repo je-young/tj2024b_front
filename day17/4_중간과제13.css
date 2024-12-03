@@ -1,0 +1,46 @@
+/* 1. 전체 구역 */
+#wrap {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#todoTop {
+  display: flex;
+}
+
+/* 2. 입력상자 */
+.contentInput {
+  width: 300px;
+  padding: 15px;
+  border: none;
+  box-shadow: 0 0 3px blue;
+}
+
+/* 3. 등록버튼 */
+.addBtn {
+  width: 100px;
+  padding: 15px;
+  border: none;
+  box-shadow: 0 0 3px blue;
+}
+
+/* 4. 할일 1개 구역 : 할일이 미완료 일때 */
+.contentBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+  margin: 20px 0;
+  padding: 15px 10px;
+}
+
+/* 5. 할일이 완료 일때 */
+.success {
+  background-color: gray;
+  color: white;
+}
+
+/* 6. 할일이 완료 일때 내용구역에 취소선 */
+.success > .content {
+  text-decoration: line-through; /* 가운데 취소선 */
+}
