@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>관리시스템</title>
+  <link rel="stylesheet" href="관리시스템.css">
+</head>
+
+<body>
+
+  <div id="wrap">
+    <div id="classRegister">
+      <h4>클래스 등록</h4>
+      <label>클래스명 </label>
+      <input type="text" />
+      <label>호실 </label>
+      <input type="text" />
+      <label>강사명 </label>
+      <input type="text" />
+      <button>등록</button>
+      <br /><br />
+      <table border="1">
+        <thead>
+          <tr>
+            <th>클래스명</th>
+            <th>호실</th>
+            <th>강사명</th>
+            <th>비고</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>101호</td>
+            <td>김철수</td>
+            <td><button>수정</button><button>삭제</button></td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>102호</td>
+            <td>이영희</td>
+            <td><button>수정</button><button>삭제</button></td>
+          </tr>
+          <tr>
+            <td>JS</td>
+            <td>103호</td>
+            <td>홍길동</td>
+            <td><button>수정</button><button>삭제</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr style="margin-top : 30px; width : 100%" />
+    <div id="studentRegister">
+      <h4>수강생 등록</h4>
+      <label>수강생명</label>
+      <input id="inputName" type="text" />
+      <label>성별</label>
+      <input id="gender" type="text" />
+      <label>전화번호</label>
+      <input id="phoneNumber" type="text" />
+      <button onclick="등록함수()">등록</button>
+      <br /><br />
+      <table border="1">
+        <thead>
+          <tr>
+            <th>수강생명</th>
+            <th>성별</th>
+            <th>전화번호</th>
+            <th>비고</th>
+          </tr>
+        </thead>
+        <tbody id="totalOutput">
+          <tr>
+            <td>유재석</td>
+            <td>남</td>
+            <td>010-1111-1111</td>
+            <td><button>수정</button><button>삭제</button></td>
+          </tr>
+          <tr>
+            <td>이영애</td>
+            <td>여</td>
+            <td>010-2222-2222</td>
+            <td><button>수정</button><button>삭제</button></td>
+          </tr>
+          <tr>
+            <td>강호동</td>
+            <td>남</td>
+            <td>010-3333-3333</td>
+            <td><button>수정</button><button>삭제</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+</body>
+<script src="관리시스템.js"></script>
+</body>
+
+</html>
