@@ -1,17 +1,17 @@
 // [문제1]
 // 1. 영화 이름과 평점 배열
-let movieNames = ['히든페이스', '위키드', '글래디에이터2', '청설'];
-let movieRating = [8, 4, 7, 6];
+let 상영영화 = ['히든페이스', '위키드', '글래디에이터2', '청설'];
+let 영화별점 = [8, 4, 7, 6];
 // 2. 출력 문자열 생성
-let resultHTML = '';
-for (let i = 0; i < movieNames.length; i++) {
+let HTML = '';
+for (let index = 0; index <= 상영영화.length - 1; index++) {
   // 별(⭐️) 개수를 평점에 따라 생성
-  let stars = '⭐️'.repeat(movieRating[i]);
+  let 별 = '⭐️'.repeat(영화별점[index]);
   //repeat() 메소드를 사용하여 입력된 문자열을 반복해서 출력
   // 영화 제목과 별을 합쳐 한 줄 생성
-  resultHTML += `${movieNames[i]} ${stars}<br>`;
+  HTML += `${상영영화[index]} ${별}<br>`;
 }
 // 3. 화면에 출력
-document.write(resultHTML);
+document.write(HTML);
 
 // [문제2]
