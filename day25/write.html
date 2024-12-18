@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div id="wrap">
+    <ul id="header">
+      <li><a href="http://index.html">홈로고</a></li>
+      <li><a href="http://board.html">자유게시판</a></li>
+    </ul>
+    <div id="content">
+      <h3>글쓰기</h3>
+      <div>
+        <form>
+          제목 : <input class="title" type="text" /> <br />
+          내용 : <textarea class="password" cols="20" rows="5"></textarea> <br />
+          비밀번호 : <input class="password" type="text" /> <br />
+          <button onclick="등록함수()" type="button">등록</button>
+        </form>
+      </div>
+    </div>
+    <div id="footer">
+
+    </div>
+  </div>
+
+  <script src="./js/data.js"></script> <!--data.js 위에-->
+  <script src="./js/write.js"></script>
+</body>
+
+</html>
