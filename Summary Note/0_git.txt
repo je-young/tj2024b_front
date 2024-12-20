@@ -1,5 +1,5 @@
 [GIThub]
-    1. http://GIThub.con
+    1. http://GIThub.com
     2. 버전관리 서비스 (vcs)
     3. 소스코드를 GitHUB 서버에 저장하고 다른 사람과 동시에 병렬 관리가 가능하다.
     4. 특징
