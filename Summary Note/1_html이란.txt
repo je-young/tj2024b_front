@@ -40,7 +40,7 @@
             * file:///C:/Users/tj-bu-702-teacher/Desktop/tj2024b_front/day02/1_html이란.html
 
         방법2(서버) : (p.67) 라이브서버 사용하기 
-            1. 사이드바 메뉴에서 확장( ctrl+shitf+x) 
+            1. 사이드바 메뉴에서 확장( ctrl+shift+x) 
             2. live server 검색후 install
             3. [실행] 실행할 html 문서에서 오른쪽 클릭 -> open with live server 
             * http://192.168.30.178:5500/day02/1_html이란.html
